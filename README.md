@@ -1,16 +1,12 @@
 # hydrated_bloc_integration_test_example
 
-A new Flutter project.
+Hydrated bloc within integration test does not work.
 
-## Getting Started
+There are two integration tests in app_test.dart which are basically the same, the only differenve is how the app is initialized (I've been using second method in my current projects)
 
-This project is a starting point for a Flutter application.
+You can run the tests:
+1. flutter test integration_test/app_test.dart
+2. flutter drive --driver=test_driver/integration_driver.dart --target=integration_test/app_test.dart
 
-A few resources to get you started if this is your first Flutter project:
+I've been using the second method in my current projects
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
